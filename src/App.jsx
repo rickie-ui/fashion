@@ -1,12 +1,10 @@
 import Header from "@/shared/Header";
+import Home from "@/components/Home";
 const App = () => {
   return (
     <>
-      <div className="flex items-center justify-center text-red-500">
-        Welcome home
-      </div>
-
       <Header />
+      <Home />
     </>
   );
 };
