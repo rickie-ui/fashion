@@ -1,10 +1,10 @@
 const Advert = () => {
   return (
-    <section className="mb-10 flex h-[450px] items-center justify-center gap-x-24 border border-red-500 bg-primary ">
+    <section className="mb-10 flex h-[450px] items-center justify-center gap-x-24 bg-primary ">
       {/* fix soon */}
       <img src="#" alt="image" />
 
-      <div className="w-80 border border-red-500 p-2">
+      <div className="w-80 p-2">
         <p className="text-5xl font-extrabold  uppercase">
           <span className="my-3 inline-block -rotate-3 bg-white px-4">
             Payday
