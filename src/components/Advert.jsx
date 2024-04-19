@@ -1,8 +1,10 @@
+import ImageOne from "@/assets/advert.png";
+
 const Advert = () => {
   return (
-    <section className="mb-10 flex h-[450px] items-center justify-center gap-x-24 bg-primary ">
+    <section className="mb-10 flex h-[450px] items-center justify-center gap-x-16 bg-primary ">
       {/* fix soon */}
-      <img src="#" alt="image" />
+      <img src={ImageOne} alt="image" className="h-full bg-cover" />
 
       <div className="w-80 p-2">
         <p className="text-5xl font-extrabold  uppercase">
