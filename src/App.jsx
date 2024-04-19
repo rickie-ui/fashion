@@ -2,6 +2,8 @@ import Header from "@/shared/Header";
 import Home from "@/components/Home";
 import Sponsor from "@/components/Sponsor";
 import Arrival from "@/components/Arrival";
+import Advert from "@/components/Advert";
+
 const App = () => {
   return (
     <>
@@ -9,6 +11,7 @@ const App = () => {
       <Home />
       <Sponsor />
       <Arrival />
+      <Advert />
     </>
   );
 };
