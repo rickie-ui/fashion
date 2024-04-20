@@ -4,6 +4,7 @@ import Sponsor from "@/components/Sponsor";
 import Arrival from "@/components/Arrival";
 import Advert from "@/components/Advert";
 import Favorite from "@/components/Favorite";
+import Community from "./components/Community";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Arrival />
       <Advert />
       <Favorite />
+      <Community />
     </>
   );
 };
