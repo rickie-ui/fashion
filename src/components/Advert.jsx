@@ -1,10 +1,30 @@
 import ImageOne from "@/assets/advert.png";
+import Star from "@/assets/star.png";
 
 const Advert = () => {
   return (
-    <section className="mb-10 flex h-[450px] items-center justify-center gap-x-16 bg-primary ">
-      {/* fix soon */}
-      <img src={ImageOne} alt="image" className="h-full bg-cover" />
+    <section className="relative mb-10 flex h-[450px] items-center justify-center gap-x-16 bg-primary ">
+      <img src={ImageOne} alt="image" className="h-full object-contain" />
+      <img
+        src={Star}
+        alt="star"
+        className=" absolute left-1/4 top-20 h-8 w-8 opacity-50"
+      />
+      <img
+        src={Star}
+        alt="star"
+        className=" absolute bottom-48 left-[28%] h-8 w-8 opacity-80"
+      />
+      <img
+        src={Star}
+        alt="star"
+        className=" absolute top-12 h-8 w-8 opacity-60"
+      />
+      <img
+        src={Star}
+        alt="star"
+        className=" absolute bottom-28 h-8 w-8 opacity-70"
+      />
 
       <div className="w-80 p-2">
         <p className="text-5xl font-extrabold  uppercase">
