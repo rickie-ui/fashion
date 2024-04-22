@@ -4,7 +4,8 @@ import Sponsor from "@/components/Sponsor";
 import Arrival from "@/components/Arrival";
 import Advert from "@/components/Advert";
 import Favorite from "@/components/Favorite";
-import Community from "./components/Community";
+import Community from "@/components/Community";
+import Footer from "@/components/Footer";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Advert />
       <Favorite />
       <Community />
+      <Footer />
     </>
   );
 };
