@@ -6,6 +6,7 @@ import Advert from "@/components/Advert";
 import Favorite from "@/components/Favorite";
 import Community from "@/components/Community";
 import Footer from "@/components/Footer";
+import Voucher from "./components/Voucher";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Arrival />
       <Advert />
       <Favorite />
+      <Voucher />
       <Community />
       <Footer />
     </>
