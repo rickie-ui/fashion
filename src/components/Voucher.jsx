@@ -4,7 +4,7 @@ import Preview from "@/assets/preview.png";
 
 const Voucher = () => {
   return (
-    <section className="mx-auto mb-10 flex h-[550px] w-9/12  items-center justify-between gap-x-10 border border-red-500 px-4">
+    <section className="mx-auto mb-10 flex h-[550px] w-9/12  items-center justify-between gap-x-10 px-4">
       <div className="w-1/2">
         <h2 className="text-3xl font-extrabold uppercase">
           Download App & <br /> Get the Voucher!
@@ -20,8 +20,22 @@ const Voucher = () => {
         </div>
       </div>
 
-      <div className="w-1/2 border border-blue-500">
-        <img src={Preview} alt="h-full" />
+      <div className="relative flex h-full w-1/2 items-center justify-center">
+        <img
+          src={Preview}
+          alt=""
+          className=" z-20  -ml-3.5 block h-full w-full object-cover"
+        />
+        <div className="absolute left-1/2 top-1/2 h-52 w-52 -translate-x-1/2 -translate-y-1/2 transform rounded-full border-2 border-secondary"></div>
+        <div className="absolute left-1/2 top-1/2 h-72 w-72 -translate-x-1/2 -translate-y-1/2 transform rounded-full border-2 border-secondary"></div>
+        <div className="absolute left-1/2 top-1/2 h-96 w-96 -translate-x-1/2 -translate-y-1/2 transform rounded-full border-2 border-secondary"></div>
+
+        {/* markers */}
+        <div className="absolute bottom-16 left-14 h-5 w-5 rounded-full bg-primary"></div>
+        <div className="absolute right-14  top-20 h-6 w-6 rounded-full bg-primary"></div>
+
+        <div className="absolute left-20  top-20 h-3.5 w-3.5 rounded-full bg-black/55"></div>
+        <div className="absolute bottom-28  right-20 h-2.5 w-2.5 rounded-full bg-black/55"></div>
       </div>
     </section>
   );
