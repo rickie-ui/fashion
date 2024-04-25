@@ -11,9 +11,9 @@ import Voucher from "./components/Voucher";
 const App = () => {
   return (
     <>
-      <div className="flex h-8 w-full items-center justify-center bg-black text-xs font-medium text-white/70">
+      {/* <div className="flex h-8 w-full items-center justify-center bg-black text-xs font-medium text-white/70">
         Note: Not mobile responsive🤭
-      </div>
+      </div> */}
       <Header />
       <Home />
       <Sponsor />
