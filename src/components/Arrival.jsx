@@ -7,7 +7,7 @@ import Arrival_four from "@/assets/arrival_four.png";
 
 const Arrival = () => {
   return (
-    <section className="mx-auto mb-10 w-10/12">
+    <section className="mx-auto mb-10 w-11/12 md:w-10/12">
       <h2 className="text-3xl font-extrabold uppercase">New Arrivals</h2>
       <div className="relative">
         <img
@@ -17,8 +17,8 @@ const Arrival = () => {
         />
       </div>
 
-      <div className="my-16 grid h-[475px] grid-cols-4">
-        <div className=" w-[275px]">
+      <div className="my-16 grid h-[475px] snap-x grid-flow-col justify-between gap-8 overflow-x-auto md:grid-cols-4">
+        <div className="w-[275px] snap-center">
           <img src={Arrival_one} alt="image" className=" h-[400px]" />
           <div className="mb-1 mt-4 flex items-center justify-between gap-8 font-medium opacity-75">
             <h2>Hoodies & Sweetshirt</h2>
@@ -31,7 +31,7 @@ const Arrival = () => {
             Explore Now!
           </a>
         </div>
-        <div className=" w-[275px]">
+        <div className=" w-[275px] snap-center">
           <img src={Arrival_two} alt="image" className=" h-[400px]" />
           <div className="mb-1 mt-4 flex items-center justify-between gap-8 font-medium opacity-75">
             <h2>Coats & Parkas</h2>
@@ -44,7 +44,7 @@ const Arrival = () => {
             Explore Now!
           </a>
         </div>
-        <div className=" w-[275px]">
+        <div className=" w-[275px] snap-center">
           <img src={Arrival_three} alt="image" className=" h-[400px]" />
           <div className="mb-1 mt-4 flex items-center justify-between gap-8 font-medium opacity-75">
             <h2>Tees & T-Shirt</h2>
@@ -57,7 +57,7 @@ const Arrival = () => {
             Explore Now!
           </a>
         </div>
-        <div className=" w-[275px]">
+        <div className=" w-[275px] snap-center">
           <img
             src={Arrival_four}
             alt="image"
