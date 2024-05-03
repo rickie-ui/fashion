@@ -86,6 +86,34 @@ const Header = () => {
             >
               Catalogue
             </a>
+            <a
+              href="#"
+              className="w-full py-2 text-center hover:text-white/50"
+              onClick={() => setIsMenuToggled(false)}
+            >
+              Fashion
+            </a>
+            <a
+              href="#"
+              className="w-full py-2 text-center hover:text-white/50"
+              onClick={() => setIsMenuToggled(false)}
+            >
+              Favorite
+            </a>
+            <a
+              href="#"
+              className="w-full py-2 text-center hover:text-white/50"
+              onClick={() => setIsMenuToggled(false)}
+            >
+              Lifestyle
+            </a>
+
+            <a
+              href="#"
+              className="mx-auto w-9/12 bg-primary py-2 text-center tracking-widest text-white outline-none  hover:bg-primary/60"
+            >
+              Sign Up
+            </a>
           </div>
         </div>
       )}
