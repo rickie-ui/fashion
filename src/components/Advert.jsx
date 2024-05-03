@@ -4,7 +4,11 @@ import Star from "@/assets/star.png";
 const Advert = () => {
   return (
     <section className="relative mb-10 flex h-[450px] items-center justify-center gap-x-16 bg-primary ">
-      <img src={ImageOne} alt="image" className="h-full object-contain" />
+      <img
+        src={ImageOne}
+        alt="image"
+        className="hidden h-full object-contain md:block"
+      />
       <img
         src={Star}
         alt="star"
@@ -26,7 +30,7 @@ const Advert = () => {
         className=" absolute bottom-28 h-8 w-8 opacity-70"
       />
 
-      <div className="w-80 p-2">
+      <div className="mx-auto w-10/12 p-2 md:mx-0 md:w-80">
         <p className="text-5xl font-extrabold  uppercase">
           <span className="my-3 inline-block -rotate-3 bg-white px-4">
             Payday
