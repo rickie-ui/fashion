@@ -7,13 +7,14 @@ import {
 
 const Footer = () => {
   return (
-    <section className="flex h-[250px] items-center justify-center bg-black px-14 text-white/50">
-      <div className="w-1/2">
+    <section className="flex h-auto flex-col items-center justify-center space-y-10 bg-black  py-10 text-white/50 md:h-[250px] md:flex-row md:space-y-0 md:px-14 md:py-0">
+      <div className="w-3/4 md:w-1/2">
         <h2 className="mb-4  text-2xl font-extrabold uppercase text-white">
           Fashion
         </h2>
         <p className="text-sm">
-          Complete your style with awesome <br /> clothes from us.
+          Complete your style with awesome <br className="hidden md:block" />
+          clothes from us.
         </p>
         <div className="my-4 flex items-center gap-2">
           <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-black">
@@ -31,7 +32,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex w-1/2 justify-evenly">
+      <div className="flex w-3/4 flex-col justify-evenly space-y-8 md:w-1/2 md:flex-row md:space-y-0">
         <div>
           <h2 className="mb-4 text-lg font-medium capitalize text-white/70">
             Company
