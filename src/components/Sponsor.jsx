@@ -7,7 +7,7 @@ import Sponsor_six from "@/assets/sponsor_6.png";
 
 const Sponsor = () => {
   return (
-    <div className=" my-10 flex h-24 w-full items-center justify-between bg-primary px-36">
+    <div className=" my-10 flex h-24 w-full items-center justify-between space-x-4 overflow-x-auto bg-primary md:space-x-0 md:px-36">
       <img src={Sponsor_one} alt="sponsors" className="h-8 w-24 object-cover" />
       <img src={Sponsor_two} alt="sponsors" className="h-8 w-24 object-cover" />
       <img
