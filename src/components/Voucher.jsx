@@ -4,8 +4,8 @@ import Preview from "@/assets/preview.png";
 
 const Voucher = () => {
   return (
-    <section className="mx-auto mb-10 flex h-[550px] w-9/12  items-center justify-between gap-x-10 px-4">
-      <div className="w-1/2">
+    <section className="mx-auto mb-10 flex h-[400px] w-full flex-col items-center justify-center gap-x-10 space-y-10 md:h-[550px] md:w-9/12  md:flex-row md:justify-between md:space-y-0 md:px-4">
+      <div className="w-3/4 md:w-1/2">
         <h2 className="text-3xl font-extrabold uppercase">
           Download App & <br /> Get the Voucher!
         </h2>
@@ -20,7 +20,7 @@ const Voucher = () => {
         </div>
       </div>
 
-      <div className="relative flex h-full w-1/2 items-center justify-center">
+      <div className="relative hidden h-full w-1/2 items-center justify-center md:flex">
         <img
           src={Preview}
           alt=""
