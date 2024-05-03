@@ -6,11 +6,11 @@ const Community = () => {
       <h2 className="text-center text-3xl font-extrabold uppercase text-white">
         JOIN SHOPPING COMMUNITY TO <br /> GET MONTHLY PROMO
       </h2>
-      <p className="my-4 text-lg text-white">
+      <p className="my-4 text-center text-lg text-white">
         Type your email down below and be young wild generation
       </p>
 
-      <div className="flex h-12 w-1/4 items-center justify-between rounded-md bg-white">
+      <div className="mx-auto flex h-12 w-11/12  items-center justify-between rounded-md bg-white md:w-1/4">
         <input
           type="text"
           placeholder="Add your email here"
